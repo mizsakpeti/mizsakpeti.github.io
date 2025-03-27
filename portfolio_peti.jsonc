@@ -1,0 +1,232 @@
+{
+    "name": "Peter Mizsak",
+    "label": "Python Developer",
+    "image_path": "img/mp-profile.png",
+    "contact": {
+        "email": "peter@mizsak.hu",
+        "phone": "(30) 206-9994",
+        "location": "Budapest, Hungary"
+    },
+    "summary": "Self-taught Python developer with a background in mechanical simulation engineering, passionate about automation and sharing knowledge.",
+    "base_url": "127.0.0.1:5500",
+    "social_links": [
+        {
+            "label": "Website",
+            "url": "https://peter.mizsak.hu",
+            "svg_path": "img/globe.svg"
+        },
+        {
+            "label": "LinkedIn",
+            "url": "https://linkedin.com/in/peter-mizsak",
+            "svg_path": "img/linkedin.svg"
+        },
+        {
+            "label": "GitHub - Personal",
+            "url": "https://github.com/peter-mizsak",
+            "svg_path": "img/github.svg"
+        },
+        {
+            "label": "GitHub - Company",
+            "url": "https://github.com/MizsakPeterEcon",
+            "svg_path": "img/github.svg"
+        }
+    ],
+    "work_experience": [
+        {
+            "company": "Econ Engineering",
+            "position": "Python Developer",
+            "url": "https://econengineering.com",
+            "start_date": "01/01/2021",
+            "end_date": "Present",
+            "summary": "As a Python Developer, I specialize in creating innovative tools and applications to streamline processes and enhance productivity for simulation engineers and office administrators.",
+            "highlights": [
+                "Led a small group of developers working for a method development department of BMW Group.",
+                "Developed a Python-based solution for automating generation of PowerPoint reports from simulation results.",
+                "Designed and implemented a work-hour logging web application tailored to company needs.",
+                "Built tools for evaluating simulation results, improving data analysis efficiency.",
+                "Conducted Python and Git training sessions to upskill mechanical engineers and enhance technical growth within the company."
+            ]
+        },
+        {
+            "company": "Econ Engineering",
+            "position": "Mechanical Simulation Engineer",
+            "url": "https://econengineering.com",
+            "start_date": "01/10/2018",
+            "end_date": "31/12/2020",
+            "summary": "As a Mechanical Simulation Engineer, I was responsible for analysing structures with finite element analysis (FEA) software, creating reports, and providing recommendations for structural improvements.",
+            "highlights": [
+                "Performed structural analysis on various components and assemblies.",
+                "Developed automations for repetative tasks including model setup and post-processing.",
+                "Provided support for the python customization module of ANSYS (ACT) for the hungarian market"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "PowerPoint report generation",
+            "summary": "Automated solution for generating PowerPoint reports with python.",
+            "highlights": [
+                "Fill out report template with simulation results.",
+                "Works in batch mode without MS office installation.",
+                "The software generated tens of thousands of reports in a year."
+            ],
+            "images": [
+                {
+                    "img_path": "./img/projects/PPT.jpg",
+                    "caption": "PowerPoint report generation with python."
+                }
+            ]
+        },
+        {
+            "title": "Work-hour logging web application",
+            "summary": "Web application for logging working hours.",
+            "highlights": [
+                "Developed a user-friendly interface for easy log entries.",
+                "Integrated with intranet database.",
+                "Provided visualizations and reports for users and managers.",
+                "The application is used by 30+ employees."
+            ],
+            "images": [
+                {
+                    "img_path": "./img/projects/logging-app.png",
+                    "caption": "Monthly view of the work-hour logging application"
+                }
+            ]
+        },
+        {
+            "title": "Python training sessions",
+            "summary": "Training sessions for mechanical engineers.",
+            "url": "https://econengineeringgit.github.io/python-tips-tricks/",
+            "highlights": [
+                "Introduction to Python programming.",
+                "Version control with Git.",
+                "Best practices for code writing.",
+                "Tips and tricks for everyday tasks."
+            ]
+        }
+    ],
+    // "volunteer_experience": [
+    //   {
+    //     "organization": "Latest Organization",
+    //     "position": "Position One",
+    //     "url": "https://sample.com",
+    //     "start_date": "01/01/2020",
+    //     "end_date": "Present",
+    //     "summary": "Short summary about present volunteer work",
+    //     "highlights": [
+    //       "First Duty of Current Organization",
+    //       "Second Duty of Current Organization",
+    //       "Third Duty of Current Organization"
+    //     ]
+    //   },
+    //   {
+    //     "organization": "Previous Organization",
+    //     "position": "Position Two",
+    //     "url": "https://sample.com",
+    //     "start_date": "01/01/2010",
+    //     "end_date": "01/01/2020",
+    //     "summary": "Short summary about previous volunteer work",
+    //     "highlights": [
+    //       "First Duty of Previous Organization",
+    //       "Second Duty of Previous Organization",
+    //       "Third Duty of Previous Organization"
+    //     ]
+    //   }
+    // ],
+    "education": [
+        {
+            "institution": "Budapest University of Technology and Economics",
+            "location": "Budapest, Hungary",
+            "url": "https://www.bme.hu/",
+            "degrees": [
+                "Master of Mechanical Engineering Modeling (in English)",
+                "Bachelor of Mechatronics Engineering"
+            ],
+            "honors": [
+                "excellent with highest honor degree classification",
+                "1st prize at TDK conference"
+            ],
+            "graduation_date": "25/01/2019"
+        },
+        {
+            "institution": "Université Catolique de Louvain",
+            "location": "Louvain-la-Neuve, Belgium",
+            "url": "https://www.uclouvain.be/en",
+            "degrees": [
+                "Erasmus exchange program in Mechanical Engineering (2017-18)"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Python",
+            "proficiency": 90,
+            "proficiency_label": "Proficiency Level"
+        },
+        {
+            "name": "git",
+            "proficiency": 75,
+            "proficiency_label": "Proficiency Level"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Ice Hockey",
+            "summary": "Played ice hockey for 8, than became a referee and officiated for 14 years. Spent 12 seasons in the Hungarian top league as a linesman.",
+            "images": [
+                // {
+                //     "img_path": "./img/hobbies/2022_09_Szuperkupa_donto.jpg",
+                //     "caption": "2022 Super cup final (FTC-DEAC), Tüskecsarnok"
+                // },
+                {
+                    "img_path": "./img/hobbies/2021_12_04_UTE_FTC.jpg",
+                    "caption": "UTE-FTC (derbi), Megyeri street ice rink"
+                },
+                {
+                    "img_path": "./img/hobbies/2021_DAB-UTE.jpg",
+                    "caption": "Face off at DAB-UTE, Dunaújváros"
+                }
+            ]
+        },
+        {
+            "name": "Traveling and Photography",
+            "summary": "Exploring new places and capturing moments with my camera.",
+            "images": [
+                {
+                    "img_path": "./img/hobbies/death_valley.jpg",
+                    "caption": "Death Valley National Park, California"
+                },
+                {
+                    "img_path": "./img/hobbies/chicago_air_show.jpg",
+                    "caption": "Chicago Air Show, Illinois"
+                }
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Hungarian",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Professional Working Proficiency"
+        },
+        {
+            "language": "Spanish",
+            "fluency": "Elementary Proficiency"
+        }
+    ],
+    // "references": [
+    //     {
+    //         "name": "Person One",
+    //         "relation": "Previous Boss",
+    //         "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
+    //     },
+    //     {
+    //         "name": "Person Two",
+    //         "relation": "Previous Coworker",
+    //         "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+    //     }
+    // ]
+}

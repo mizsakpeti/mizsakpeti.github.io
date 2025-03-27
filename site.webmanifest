@@ -1,16 +1,16 @@
 {
-  "name": "Portfolio",
-  "short_name": "Portfolio",
+  "name": "Mizsak Peter Portfolio",
+  "short_name": "MP Portfolio",
   "icons": [
     {
-      "src": "/icon-192x192.png",
+      "src": "/img/MP_icon_192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-512x512.png",
-      "sizes": "512x512",
+      "src": "/img/MP_icon_500.png",
+      "sizes": "500x500",
       "type": "image/png",
       "purpose": "any"
     }
