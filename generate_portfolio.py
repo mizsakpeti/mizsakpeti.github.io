@@ -3,6 +3,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 import commentjson as json
+import markdown
 from jinja2 import Environment, FileSystemLoader
 
 # Load JSON data
@@ -20,6 +21,18 @@ if "social_links" in data:
 
 # Set up Jinja environment
 env = Environment(loader=FileSystemLoader("."), autoescape=True)
+
+
+def markdown_filter(text):
+    html = markdown.markdown(text)
+    # If the result is wrapped in <p>...</p>, strip it.
+    if html.startswith("<p>") and html.endswith("</p>"):
+        html = html[3:-4]
+    return html
+
+
+env.filters["markdown"] = markdown_filter
+
 index_template = env.get_template("index_template.html")
 resume_template = env.get_template("resume_template.html")
 

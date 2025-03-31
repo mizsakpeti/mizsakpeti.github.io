@@ -93,7 +93,7 @@
                 {% endfor %}
               </ul>
             {% endif %}
-            {% if summary %}<p class="header-summary">{{ summary }}</p>{% endif %}
+            {% if summary %}<p class="header-summary">{{ summary | markdown | safe }}</p>{% endif %}
           </div>
           {% if image_path %}
             <img class="header-image"
@@ -124,10 +124,10 @@
                   {% if job.start_date and job.end_date %}
                     <p class="section-label">{{ job.start_date }} - {{ job.end_date }}</p>
                   {% endif %}
-                  {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
+                  {% if job.summary %}<p>{{ job.summary | markdown | safe }}</p>{% endif %}
                   {% if job.highlights %}
                     <ul>
-                      {% for highlight in job.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                      {% for highlight in job.highlights %}<li>{{ highlight | markdown | safe }}</li>{% endfor %}
                     </ul>
                   {% endif %}
                 </section>
@@ -147,10 +147,10 @@
                       {{ project.title }}
                     {% endif %}
                   </h3>
-                  {% if project.summary %}<p>{{ project.summary }}</p>{% endif %}
+                  {% if project.summary %}<p>{{ project.summary | markdown | safe }}</p>{% endif %}
                   {% if project.highlights %}
                     <ul>
-                      {% for highlight in project.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                      {% for highlight in project.highlights %}<li>{{ highlight | markdown | safe }}</li>{% endfor %}
                     </ul>
                   {% endif %}
                   {% if project.images %}
@@ -186,10 +186,10 @@
                   {% if vol.start_date and vol.end_date %}
                     <p class="section-label">{{ vol.start_date }} - {{ vol.end_date }}</p>
                   {% endif %}
-                  {% if vol.summary %}<p>{{ vol.summary }}</p>{% endif %}
+                  {% if vol.summary %}<p>{{ vol.summary | markdown | safe }}</p>{% endif %}
                   {% if vol.highlights %}
                     <ul>
-                      {% for highlight in vol.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                      {% for highlight in vol.highlights %}<li>{{ highlight | markdown | safe }}</li>{% endfor %}
                     </ul>
                   {% endif %}
                 </section>
@@ -206,7 +206,7 @@
                   {% if ref.relation %}<p class="section-label">{{ ref.relation }}</p>{% endif %}
                   {% if ref.reference %}
                     <blockquote>
-                      {{ ref.reference }}
+                      {{ ref.reference | markdown | safe }}
                     </blockquote>
                   {% endif %}
                 </section>
@@ -233,13 +233,13 @@
                   {% if edu.degrees %}
                     <h4>Degrees</h4>
                     <ul>
-                      {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
+                      {% for deg in edu.degrees %}<li>{{ deg | markdown | safe }}</li>{% endfor %}
                     </ul>
                   {% endif %}
                   {% if edu.honors %}
                     <h4>Honors</h4>
                     <ul>
-                      {% for hon in edu.honors %}<li>{{ hon }}</li>{% endfor %}
+                      {% for hon in edu.honors %}<li>{{ hon | markdown | safe }}</li>{% endfor %}
                     </ul>
                   {% endif %}
                   {% if edu.gpa_major or edu.gpa_cumulative or edu.graduation_date %}
@@ -296,7 +296,7 @@
               {% for interest in interests %}
                 <section>
                   <h3>{{ interest.name }}</h3>
-                  {% if interest.summary %}<p>{{ interest.summary }}</p>{% endif %}
+                  {% if interest.summary %}<p>{{ interest.summary | markdown | safe }}</p>{% endif %}
                   {% if interest.images %}
                     <div class="gallery side-gallery">
                       {% for img in interest.images %}

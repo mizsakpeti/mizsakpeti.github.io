@@ -7,7 +7,7 @@
         // "phone": "(30) 206-9994",
         "location": "Budapest, Hungary"
     },
-    "summary": "Self-taught Python developer with a background in mechanical simulation engineering, passionate about automation and sharing knowledge.",
+    "summary": "Self-taught Python developer with a background in mechanical simulation engineering, passionate about **automation** and **sharing knowledge.**",
     "base_url": "127.0.0.1:5500",
     "social_links": [
         {
@@ -38,13 +38,13 @@
             "url": "https://econengineering.com",
             "start_date": "01/01/2021",
             "end_date": "Present",
-            "summary": "As a Python Developer, I specialize in creating innovative tools and applications to streamline processes and enhance productivity for simulation engineers and office administrators.",
+            "summary": "As a Python Developer, I specialize in creating **innovative tools and applications** to streamline processes and enhance productivity for simulation engineers and office administrators.",
             "highlights": [
-                "Led a small group of developers working for a method development department of BMW Group.",
-                "Developed a Python-based solution for automating generation of PowerPoint reports from simulation results.",
-                "Designed and implemented a work-hour logging web application tailored to company needs.",
-                "Built tools for evaluating simulation results, improving data analysis efficiency.",
-                "Conducted Python and Git training sessions to upskill mechanical engineers and enhance technical growth within the company."
+                "**Led a small group of developers** working for a method development department of **BMW Group.**",
+                "Developed a Python-based solution for **automating generation of PowerPoint reports** from simulation results.",
+                "Designed and implemented a **work-hour logging web application** tailored to company needs.",
+                "Built tools for **evaluating simulation results**, improving data analysis efficiency.",
+                "Conducted **Python and Git training sessions** to upskill mechanical engineers and enhance technical growth within the company."
             ]
         },
         {
@@ -53,22 +53,22 @@
             "url": "https://econengineering.com",
             "start_date": "01/10/2018",
             "end_date": "31/12/2020",
-            "summary": "As a Mechanical Simulation Engineer, I was responsible for analysing structures with finite element analysis (FEA) software, creating reports, and providing recommendations for structural improvements.",
+            "summary": "As a Mechanical Simulation Engineer, I was responsible for **analysing structures with finite element analysis** (FEA) software, creating reports, and providing recommendations for structural improvements.",
             "highlights": [
                 "Performed structural analysis on various components and assemblies.",
-                "Developed automations for repetative tasks including model setup and post-processing.",
-                "Provided support for the python customization module of ANSYS (ACT) for the hungarian market"
+                "**Developed automations** for repetative tasks including model setup and post-processing.",
+                "**Provided support** for the python customization module of ANSYS (ACT) for the hungarian market"
             ]
         }
     ],
     "projects": [
         {
             "title": "PowerPoint report generation",
-            "summary": "Automated solution for generating PowerPoint reports with python.",
+            "summary": "Automated solution for **generating PowerPoint** reports with python.",
             "highlights": [
                 "Fill out report template with simulation results.",
-                "Works in batch mode without MS office installation.",
-                "The software generated tens of thousands of reports in a year."
+                "Works in **batch mode without MS office installation.**",
+                "The software generated tens of **thousands of reports** in a year."
             ],
             "images": [
                 {
@@ -83,8 +83,8 @@
             "highlights": [
                 "Developed a user-friendly interface for easy log entries.",
                 "Integrated with intranet database.",
-                "Provided visualizations and reports for users and managers.",
-                "The application is used by 30+ employees."
+                "Provided **visualizations and reports for users and managers.**",
+                "The application is used by **30+ employees.**"
             ],
             "images": [
                 {
@@ -98,8 +98,8 @@
             "summary": "Training sessions for mechanical engineers.",
             "url": "https://econengineeringgit.github.io/python-tips-tricks/",
             "highlights": [
-                "Introduction to Python programming.",
-                "Version control with Git.",
+                "Introduction to **Python** programming.",
+                "Version control with **Git.**",
                 "Best practices for code writing.",
                 "Tips and tricks for everyday tasks."
             ]
