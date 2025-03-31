@@ -4,7 +4,7 @@
     "image_path": "img/mp-profile.png",
     "contact": {
         "email": "peter@mizsak.hu",
-        "phone": "(30) 206-9994",
+        // "phone": "(30) 206-9994",
         "location": "Budapest, Hungary"
     },
     "summary": "Self-taught Python developer with a background in mechanical simulation engineering, passionate about automation and sharing knowledge.",
@@ -22,7 +22,7 @@
         },
         {
             "label": "GitHub - Personal",
-            "url": "https://github.com/peter-mizsak",
+            "url": "https://github.com/mizsakpeti",
             "svg_path": "img/github.svg"
         },
         {
