@@ -161,12 +161,28 @@
         {
             "name": "Python",
             "proficiency": 90,
-            "proficiency_label": "Proficiency Level"
+            "proficiency_label": "Expert"
         },
         {
-            "name": "git",
+            "name": "Git",
             "proficiency": 75,
-            "proficiency_label": "Proficiency Level"
+            "proficiency_label": "Comfortable"
+        },
+        {
+            "name": "Github-Actions",
+            "proficiency": 50,
+            "proficiency_label": "Experienced"
+        },
+        {
+            "name": "Linux",
+            "proficiency": 35,
+            "proficiency_label": "Basic"
+
+        },
+        {
+            "name": "Microsoft Office",
+            "proficiency": 90,
+            "proficiency_label": "Expert"
         }
     ],
     "interests": [
