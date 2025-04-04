@@ -175,9 +175,8 @@
         },
         {
             "name": "Linux",
-            "proficiency": 35,
+            "proficiency": 40,
             "proficiency_label": "Basic"
-
         },
         {
             "name": "Microsoft Office",
@@ -232,7 +231,7 @@
             "language": "Spanish",
             "fluency": "Elementary Proficiency"
         }
-    ],
+    ]
     // "references": [
     //     {
     //         "name": "Person One",
