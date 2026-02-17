@@ -24,20 +24,27 @@
             "label": "GitHub - Personal",
             "url": "https://github.com/mizsakpeti",
             "svg_path": "img/github.svg"
-        },
-        {
-            "label": "GitHub - Company",
-            "url": "https://github.com/MizsakPeterEcon",
-            "svg_path": "img/github.svg"
         }
     ],
     "work_experience": [
         {
+            "company": "MSCI",
+            "position": "Associate Python Developer",
+            "url": "https://msci.com",
+            "start_date": "10/2025",
+            "end_date": "Present",
+            "summary": "As part of the Index Engineering team I contribute to the backend infrastructure of the well-established MSCI Index business.",
+            "highlights": [
+                "Developped and maintained **FastAPI** applications.",
+                "Created and updated Azure DevOps Pipelines including testing, alerting."
+            ]
+        },
+        {
             "company": "Econ Engineering",
             "position": "Python Developer",
             "url": "https://econengineering.com",
-            "start_date": "01/01/2021",
-            "end_date": "Present",
+            "start_date": "01/2021",
+            "end_date": "09/2025",
             "summary": "As a Python Developer, I specialize in creating **innovative tools and applications** to streamline processes and enhance productivity for simulation engineers and office administrators.",
             "highlights": [
                 "**Led a small group of developers** working for a method development department of **BMW Group.**",
@@ -51,8 +58,8 @@
             "company": "Econ Engineering",
             "position": "Mechanical Simulation Engineer",
             "url": "https://econengineering.com",
-            "start_date": "01/10/2018",
-            "end_date": "31/12/2020",
+            "start_date": "10/2018",
+            "end_date": "12/2020",
             "summary": "As a Mechanical Simulation Engineer, I was responsible for **analysing structures with finite element analysis** (FEA) software, creating reports, and providing recommendations for structural improvements.",
             "highlights": [
                 "Performed structural analysis on various components and assemblies.",
