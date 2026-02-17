@@ -12,6 +12,7 @@ with Path("portfolio_peti.jsonc").open(encoding="utf-8") as f:
 
 # Add any extra context if needed
 data["current_year"] = datetime.now(tz=UTC).year
+data["current_date"] = datetime.now(tz=UTC).strftime("%Y-%m-%d")
 
 if "social_links" in data:
     for link in data["social_links"]:
